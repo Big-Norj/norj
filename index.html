@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norj-Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html.html">COURSES</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+    <div class="text-box">
+        <h1>Norj-Academy</h1>
+        <p>Getting you equipped with new skills for new sets of insights into your career.<br>Norj-Academy accompany learners in every stage of learning.</p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+    </div>   
+
+    </section>
+
+    <section class="cabinet">
+        <h1>Latest online courses</h1>
+        <p>Skill up now to stay relevant in Digital age</p>
+
+        <div class="row">
+            <div class="cabinet-col">
+                <img src="machine.png">
+                <h3>&#8358;150,000.00<br>Data Science and Machine<br>Learning With Python</h3>
+            </div>
+            <div class="cabinet-col">
+                <img src="python.png">
+                <h3>&#8358;100,000.00<br>Python Programming<br>Fundamentals</h3>
+            </div>
+            <div class="cabinet-col">
+                <img src="javascript.png">
+                <h3>&#8358;150,000.00<br>Full Stack Web with<br>Javascript & Node JS</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="campus">
+        <div class="row">
+            <div class="campus-col">
+                <img src="java.png">
+                   <h3>&#8358;150,000.00<br>Full Stack Web with<br>Javascript & Node JS</h3>
+            </div>
+            <div class="campus-col">
+                <img src="python.png">
+                   <h3>&#8358;100,000.00<br>Python Programming<br>Fundamentals</h3>
+            </div>
+            <div class="campus-col">
+                <img src="machine.png">
+                   <h3>&#8358;350,000.00<br>Data Science and Machine<br>Learning With Python</h3>
+            </div>
+
+        </div> 
+        
+    </section>
+    <section class="money">
+        <h4>Testimonies</h4>
+        <p style="color: brown;"><b>Seeking for verbals of our service quality? Find them here.Everything is transparent and<br>straightforward for your sense of justification</b></p>
+
+        <div class="row">
+            <div class="money-col">
+                <img src="user1.jpg">
+                <div>
+                    <p style="color:brown;">The Norj-Academy team works<br>really hard to ensure high level of quality.<br>I am happy with their arrangement of lessons and subjects.They reflect a scientific investigation into effective methods to adopt</p>
+                    <h3>selen</h3>
+                    <p style="color: black;">/Developer</p>
+
+                </div>
+            </div>
+            <div class="money-col">
+                <img src="user2.jpg">
+                <div>
+                    <p style="color: brown;">High level of efficiency and scientific teaching methods.<br>I am free to learn at my own pace,follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+                    <h3>kingsley norj</h3>
+                    <p style="color: black;">/Freelancer</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+<!-------Javascript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    
+</body>
+</html>

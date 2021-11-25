@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norj-Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="display.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="contact.html.html">COURSES</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fab fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About</h1>
+    </section>
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+            <h1>Maximize Your IT Potentials With Norj-Academy.</h1>
+            <p>Established in 2021, Norj-Academy,a global leader in Skills and Talent Development, offers multi-disciplinary learning management and training delivery solutions to corporations and institutions.<br> We deliver learning solutions to support customers as they adapt to key bussiness transformations and technological advancements that drive the way that organizations around the world differentiate themselves and thrive.</p>
+        </div>
+            <div class="about-col">
+                <img src="about.jpg">
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="list">
+        <div class="row">
+            <div class="list-col">
+                <h2>150</h2>
+                <p>FINISHED<br>SESSIONS</p>
+            </div>
+
+            <div class="list-col">
+                <h2>100%</h2>
+                <p>SATISFACTION<br>RATE</p>
+            </div>
+
+            <div class="list-col">
+                <h2>1,600+</h2>
+                <p>ENROLLMENT<br>FORMS</p>
+            </div>
+
+            <div class="list-col">
+                <h2>9+</h2>
+                <p>COURSES</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>follow for more</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+
+
+
+
+<!-------Javascript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    
+</body>
+</html>
